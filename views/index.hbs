@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+
+{{#each books}}
+  <a href = "{{amazon_product_url}}"
+  <div class="card">
+    <div class="picture">
+      <img src="{{book_image}}" class = "book_images"/>
+    </div>
+    <div class="title">
+      {{title}}
+    </div>
+    <div class="author">
+      {{author}}
+    </div>
+    <div class="description">
+      {{description}}
+    </div>
+    <div class="weeks">
+      Weeks on New York Times Best Seller List: {{weeks_on_list}}
+    </div>
+  </div>
+</a>
+{{/each}}
